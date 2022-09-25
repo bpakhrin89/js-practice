@@ -1,0 +1,56 @@
+body {
+    font-family: 'Raleway';
+}
+
+h2,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.todolist li {
+    background-color: #fff;
+    padding: 9px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: ease .4s;
+}
+
+.todolist li button {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(223, 43, 43);
+    padding: 5px 8px;
+    color: #fff;
+    transition: ease .4s;
+}
+
+.todolist li:hover button {
+    right: 0;
+}
+
+.todolist li:last-child {
+    margin-bottom: 0;
+}
+
+.list-wrap {
+    padding-top: 1rem;
+    border-top: 1px solid #fff;
+}
+
+.color-picked {
+    display: none;
+}
+
+.delete-btn {
+    display: none;
+}
